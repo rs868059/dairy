@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="370dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="367dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="394dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="41dp"
+                    android:layout_marginBottom="176dp"
+                    android:paddingRight="4dp"
+                    android:text="#outdoor  #traveler  #explorer  #adventure    "
+                    android:textColor="#2196F3"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="233dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="98dp"
+                    android:layout_marginTop="53dp"
+                    android:text="Allen Copper"
+                    android:textAlignment="viewStart"
+                    android:textColor="#6E6A6A"
+                    android:textSize="24sp" />
+
+                <LinearLayout
+                    android:layout_width="236dp"
+                    android:layout_height="23dp"
+                    android:layout_above="@+id/textView6"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="98dp"
+                    android:layout_marginTop="87dp"
+                    android:layout_marginEnd="77dp"
+                    android:layout_marginBottom="61dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewtime"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingLeft="3dp"
+                        android:text="55"
+                        android:textColor="#9F9B9B"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="94dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingLeft="2dp"
+                        android:paddingBottom="3dp"
+                        android:text="min ago     •  " />
+
+                    <TextView
+                        android:id="@+id/textViewstate"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="  Neywork"
+                        android:textColor="#9A9393"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="1"
+                        android:text="," />
+
+                    <TextView
+                        android:id="@+id/textViewplace"
+                        android:layout_width="45dp"
+                        android:layout_height="24dp"
+                        android:layout_weight="1"
+                        android:text="usa"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="214dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="-9dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="-1dp"
+                    android:layout_toEndOf="@+id/textView7"
+                    android:text=" ________________________"
+                    android:textColor="#0E0E0E"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="190dp"
+                    android:layout_height="34dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="17dp"
+
+                    android:layout_marginTop="13dp"
+                    android:background="@drawable/radius"
+                    android:gravity="center"
+                    android:text="  08 December 2020"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="43dp"
+                    android:layout_marginTop="117dp"
+                    android:text="Breaking view of the Rocky from the hotel. loving the vacation today in."
+                    android:textColor="#2B2929"
+                    android:textSize="18sp" />
+
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="55dp"
+                    android:layout_height="51dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="55dp"
+                    android:background="#FFFFFF"
+                    app:shapeAppearanceOverlay="@style/Circular"
+                    app:srcCompat="@drawable/cccirclecropped"
+                    app:strokeColor="#000"
+                    app:strokeWidth="3dp" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="356dp"
+                    android:layout_height="167dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+
+                    android:layout_marginStart="36dp"
+                    android:layout_marginEnd="22dp"
+                    android:layout_marginBottom="0dp"
+
+                    android:background="#373D43"
+                    app:shapeAppearanceOverlay="@style/iv_style_02"
+                    app:srcCompat="@drawable/firstimage"
+                    app:strokeColor="#000"
+                    app:strokeWidth="2dp" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_weight="1"
+                    android:text="TextView" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    android:textAlignment="gravity"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="82dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-13dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/aarow" />
+
+    <RelativeLayout
+        android:id="@+id/contentRelative"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/layerradius">
+
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="296dp"
+            android:layout_height="35dp"
+
+            android:layout_alignParentTop="true"
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@+id/imageView7"
+            android:background="@drawable/editradius"
+            android:ems="10"
+            android:gravity="center|left"
+            android:hint="                search"
+            android:inputType="textPersonName" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/edittext"
+            android:layout_alignEnd="@+id/edittext"
+            android:layout_alignBottom="@+id/edittext"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="205dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="2dp"
+            app:srcCompat="@drawable/search" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="58dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="367dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="0dp">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="394dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="41dp"
+                        android:layout_marginBottom="176dp"
+                        android:paddingRight="4dp"
+                        android:text="#outdoor  #traveler  #explorer  #adventure    "
+                        android:textColor="#2196F3"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="233dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="98dp"
+                        android:layout_marginTop="53dp"
+                        android:text="Allen Copper"
+                        android:textAlignment="viewStart"
+                        android:textColor="#6E6A6A"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="243dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="99dp"
+                        android:layout_marginTop="89dp"
+                        android:text="55 min ago    •      NewYork ,   USA" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="216dp"
+                        android:layout_height="44dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginEnd="-4dp"
+                        android:text=" _______________________"
+                        android:textColor="#0E0E0E"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="190dp"
+                        android:layout_height="34dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="17dp"
+
+                        android:layout_marginTop="13dp"
+                        android:background="@drawable/radius"
+                        android:gravity="center"
+                        android:text="  08 December 2020"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="43dp"
+                        android:layout_marginTop="117dp"
+                        android:text="Breaking view of the Rocky from the hotel. loving the vacation today in."
+                        android:textColor="#2B2929"
+                        android:textSize="18sp" />
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="55dp"
+                        android:layout_height="51dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="36dp"
+                        android:layout_marginTop="55dp"
+                        android:background="@color/white"
+                        app:shapeAppearanceOverlay="@style/iv_style_01"
+                        app:srcCompat="@drawable/cccirclecropped"
+                        app:strokeColor="#000"
+                        app:strokeWidth="2dp" />
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="356dp"
+                        android:layout_height="167dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+
+                        android:layout_marginStart="36dp"
+                        android:layout_marginEnd="22dp"
+                        android:layout_marginBottom="0dp"
+
+                        android:background="#373D43"
+                        app:shapeAppearanceOverlay="@style/iv_style_02"
+                        app:srcCompat="@drawable/firstimage"
+                        app:strokeColor="#000"
+                        app:strokeWidth="2dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/insiderelative"
+                    android:layout_width="match_parent"
+                    android:layout_height="367dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="0dp">
+
+                    <TextView
+                        android:id="@+id/sectextView6"
+                        android:layout_width="394dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="41dp"
+                        android:layout_marginBottom="176dp"
+                        android:text="#outdoor  #traveler  #explorer  #adventure   "
+                        android:textColor="#2196F3"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/sectextView3"
+                        android:layout_width="233dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="98dp"
+                        android:layout_marginTop="53dp"
+                        android:text="Sam Harry"
+                        android:textAlignment="viewStart"
+                        android:textColor="#6E6A6A"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/sectextView4"
+                        android:layout_width="243dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="99dp"
+                        android:layout_marginTop="89dp"
+                        android:text="55 min ago      •    Sydney,   Australia" />
+
+                    <TextView
+                        android:id="@+id/sectextView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="1dp"
+                        android:text=" ____________________"
+                        android:textColor="#0E0E0E"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/sectextView7"
+                        android:layout_width="190dp"
+                        android:layout_height="34dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="20dp"
+
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/radius"
+                        android:gravity="center"
+                        android:text="  09 December 2020"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/sectextView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="43dp"
+                        android:layout_marginTop="117dp"
+                        android:text="Breaking view of the Rocky from the hotel. loving the vacation"
+                        android:textColor="#2B2929"
+                        android:textSize="18sp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/secimageView4"
+                        android:layout_width="356dp"
+                        android:layout_height="167dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+
+                        android:layout_marginStart="36dp"
+                        android:layout_marginEnd="22dp"
+                        android:layout_marginBottom="0dp"
+
+                        android:background="#373D43"
+                        app:shapeAppearanceOverlay="@style/iv_style_02"
+                        app:srcCompat="@drawable/llan"
+                        app:strokeColor="#000"
+                        app:strokeWidth="2dp" />
+
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/secimageView"
+                        android:layout_width="55dp"
+                        android:layout_height="51dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="36dp"
+                        android:layout_marginTop="55dp"
+                        android:background="@color/white"
+                        app:shapeAppearanceOverlay="@style/iv_style_01"
+                        app:srcCompat="@drawable/ccirclecropped"
+                        app:strokeColor="#000"
+                        app:strokeWidth="2dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="367dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="0dp">
+
+                    <TextView
+                        android:id="@+id/thirdtextView6"
+                        android:layout_width="394dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="41dp"
+                        android:layout_marginBottom="176dp"
+                        android:text="#outdoor  #traveler  #explorer  #adventure   "
+                        android:textColor="#2196F3"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/thirdtextView3"
+                        android:layout_width="233dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="98dp"
+                        android:layout_marginTop="53dp"
+                        android:text="Tom Sammy"
+                        android:textAlignment="viewStart"
+                        android:textColor="#6E6A6A"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/thirdtextView4"
+                        android:layout_width="243dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="99dp"
+                        android:layout_marginTop="89dp"
+                        android:text="55 min ago          •  Mumbai,   India" />
+
+                    <TextView
+                        android:id="@+id/thirdtextView2"
+                        android:layout_width="216dp"
+                        android:layout_height="44dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginEnd="-4dp"
+                        android:text=" _______________________"
+                        android:textColor="#0E0E0E"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/thirdtextView7"
+                        android:layout_width="190dp"
+                        android:layout_height="34dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="20dp"
+
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/radius"
+                        android:gravity="center"
+                        android:text="  10 December 2020"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/thirdtextView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="43dp"
+                        android:layout_marginTop="117dp"
+                        android:text="Breaking view of the Rocky from the hotel. loving the vacation"
+                        android:textColor="#2B2929"
+                        android:textSize="18sp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/thirdimageView4"
+                        android:layout_width="356dp"
+                        android:layout_height="167dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+
+                        android:layout_marginStart="36dp"
+                        android:layout_marginEnd="22dp"
+                        android:layout_marginBottom="0dp"
+
+                        android:background="#373D43"
+                        app:shapeAppearanceOverlay="@style/iv_style_02"
+                        app:srcCompat="@drawable/firstimage"
+                        app:strokeColor="#000"
+                        app:strokeWidth="2dp" />
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/thirdimageView"
+                        android:layout_width="55dp"
+                        android:layout_height="51dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="36dp"
+                        android:layout_marginTop="55dp"
+                        android:background="@color/white"
+                        app:shapeAppearanceOverlay="@style/iv_style_01"
+                        app:srcCompat="@drawable/uppar"
+                        app:strokeColor="#000"
+                        app:strokeWidth="2dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="367dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="0dp">
+
+                    <TextView
+                        android:id="@+id/fourtextView6"
+                        android:layout_width="394dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="41dp"
+                        android:layout_marginBottom="176dp"
+                        android:text="#outdoor  #traveler  #explorer  #adventure   "
+                        android:textColor="#2196F3"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/fourtextView3"
+                        android:layout_width="233dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="98dp"
+                        android:layout_marginTop="53dp"
+                        android:text="Allen Copper"
+                        android:textAlignment="viewStart"
+                        android:textColor="#6E6A6A"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/fourtextView4"
+                        android:layout_width="243dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="99dp"
+                        android:layout_marginTop="89dp"
+                        android:text="55 min ago        •   Rome,   Italy" />
+
+                    <TextView
+                        android:id="@+id/fourtextView2"
+                        android:layout_width="216dp"
+                        android:layout_height="44dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginEnd="-4dp"
+                        android:text=" _______________________"
+                        android:textColor="#0E0E0E"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/fourtextView7"
+                        android:layout_width="190dp"
+                        android:layout_height="34dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="20dp"
+
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/radius"
+                        android:gravity="center"
+                        android:text="  11 December 2020"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fourtextView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="43dp"
+                        android:layout_marginTop="117dp"
+                        android:text="Breaking view of the Rocky from the hotel. loving the vacation"
+                        android:textColor="#2B2929"
+                        android:textSize="18sp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/fourimageView4"
+                        android:layout_width="356dp"
+                        android:layout_height="167dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+
+                        android:layout_marginStart="36dp"
+                        android:layout_marginEnd="22dp"
+                        android:layout_marginBottom="0dp"
+
+                        android:background="#373D43"
+                        app:shapeAppearanceOverlay="@style/iv_style_02"
+                        app:srcCompat="@drawable/lan"
+                        app:strokeColor="#000"
+                        app:strokeWidth="2dp" />
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/fourimageView"
+                        android:layout_width="55dp"
+                        android:layout_height="51dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="36dp"
+                        android:layout_marginTop="55dp"
+                        android:background="@color/white"
+                        app:shapeAppearanceOverlay="@style/iv_style_01"
+                        app:srcCompat="@drawable/uppar"
+                        app:strokeColor="#000"
+                        app:strokeWidth="2dp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp" />
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView7"
+            android:layout_width="46dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="16dp"
+            app:shapeAppearanceOverlay="@style/iv_style_01"
+            app:srcCompat="@drawable/circlecropped"
+            app:strokeColor="@color/black"
+            app:strokeWidth="2dp" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="90dp"
+        android:text="Daily  Activity"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
